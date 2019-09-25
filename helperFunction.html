@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="helperFunction.js"></script>        
+    </head>
+    <body>
+
+       
+        <div> 
+           
+                <h1>Select state:</h1> 
+                <input type="checkbox" name="processing" value="processing" id="processing"> processing<br>
+                <input type="radio" name="successOrerror" value="success" onchange="stateSelection()"> success<br>
+                <input type="radio" name="successOrerror" value="error" onchange="stateSelection()"> error<br><br>
+                <div id="showErrorCode" style="display: none;">
+                    <input type="radio" name="errorCode" value="NO_STOCK" onchange="errorCodeSelection()"> NO_STOCK<br>
+                    <input type="radio" name="errorCode" value="INCORRECT_DETAILS" onchange="errorCodeSelection()">INCORRECT_DETAILS<br>
+                    <input type="radio" name="errorCode" value="null" onchange="errorCodeSelection()"> null<br>
+                    <input type="radio" name="errorCode" value="undefined" onchange="errorCodeSelection()"> undefined<br><br>
+                </div>
+                <input type="submit" value="Submit" onclick="init()">
+           
+        </div>
+        </body>
+</html>
