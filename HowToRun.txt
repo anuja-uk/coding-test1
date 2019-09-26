@@ -1,3 +1,11 @@
 1) How to run 
 This is simple javascript program 
 please open helperFunction.html in a browser and open console to see the output
+
+2) Input require 
+ we can select states as following 
+ 
+ 1) Only Success
+ 2) Only Error with ErrorCode
+ 3) Only Error without ErrorCode
+ 4) Select processing either with success or error (again error can with or without errorCode)
